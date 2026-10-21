@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Resource Management Lab</string>
+    <string name="welcome_message">Welcome to the Resource Lab!</string>
+    <string name="settings_button">Open Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="username_label">Username</string>
+    <string name="username_default">Guest</string>
+    <string name="notifications_title">Enable notifications</string>
+    <string name="theme_title">App Theme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+
+    <string-array name="theme_entries">
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+        <item>@string/theme_system</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+</resources>
